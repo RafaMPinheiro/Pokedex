@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    background: #f5f5f5;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 40px;
+    font-family: Ibarra Real Nova;
+    text-align: center;
+}
+
+span {
+    color: rgb(57, 57, 255);
+}
+
+hr {
+    margin: 10px 0;
+    border-top: 3px solid #bbb;
+    border-radius: 5px;
+}
+
+.container {
+    border: 1px solid #afafaf;
+    border-radius: 10px;
+    padding: 10px;
+    max-width: 450px;
+    min-height: 300px;
+}
+
+.imagem, #imgpokemon, #content {
+    text-align: center;
+}
+
+.imagem img {
+    width: 90%;
+}
+
+.group-form {
+    padding: 5px 0;
+}
+
+.group-form label {
+    font-weight: 900;
+    color: #1b356e;
+    font-family: Ibarra Real Nova;
+    font-size: 20px;
+}
+
+.group-form input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #afafaf;
+    border-radius: 5px;
+    text-transform: capitalize;
+    margin: 5px 0;
+}
+
+.group-form input[type=submit] {
+    background: #1b356e;
+    color: #f5f5f5;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+#imgpokemon img {
+    width: 90px;
+    border: 1px solid #afafaf;
+    border-radius: 50%;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.6);
+    margin: 10px;
+}
+
+#content {
+    padding: 10px;
+    background: rgb(255, 196, 0);
+    border-radius: 5px;
+}
